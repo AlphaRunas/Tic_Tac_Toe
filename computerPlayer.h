@@ -11,6 +11,9 @@
 
 class computerPlayer {
 
+public:
+    computerPlayer();
+
 };
 
 

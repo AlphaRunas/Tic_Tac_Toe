@@ -3,3 +3,5 @@
 //
 
 #include "computerPlayer.h"
+#include "Display.cpp"
+#include <iostream>
