@@ -7,7 +7,6 @@
 
 using namespace std;
 
-
 // The place where the main game loop will be
 
 int main() {
