@@ -9,11 +9,16 @@
 
 #include "HumanPlayer.h"
 #include "computerPlayer.h"
+#include <vector>
+
+using namespace std;
 
 class Display : public HumanPlayer, public computerPlayer {
 
 public:
     Display();
+
+    explicit Display(const vector<int> &board);
 
     void displayForTwoPlayers(int y);
     void displayForOnePlayer(int n);

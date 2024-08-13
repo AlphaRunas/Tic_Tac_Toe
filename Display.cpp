@@ -5,8 +5,15 @@
 #include "Display.h"
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
+
+// Maybe use a different Data Structure to make sure it is
+// update correctly.
+vector<int> board = {(1, 2, 3),
+                     (4, 5, 6),
+                     (7, 8, 9)};
 
 void displayForTwoPlayers(int y){
     string name1;
