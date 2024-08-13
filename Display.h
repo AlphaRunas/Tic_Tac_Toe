@@ -18,8 +18,6 @@ class Display : public HumanPlayer, public computerPlayer {
 public:
     Display();
 
-    explicit Display(const vector<int> &board);
-
     void displayForTwoPlayers(int y);
     void displayForOnePlayer(int n);
 
