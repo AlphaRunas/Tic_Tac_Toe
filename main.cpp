@@ -4,12 +4,27 @@
 // End date:
 #include <iostream>
 #include <string>
+#include "Display.h"
+#include "Display.cpp"
 
 using namespace std;
 
 // The place where the main game loop will be
 
 int main() {
+
+    int choice;
+
+    cout << "Welcome to Tic-Tac-Toe!\n";
+    cout << "Will there be 1 player or 2 players?";
+    cin >> choice;
+
+    if(choice == 1){
+        displayForOnePlayer(choice);
+    }
+    else{
+        displayForTwoPlayers(choice);
+    }
 
 
 

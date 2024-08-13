@@ -7,10 +7,16 @@
 
 // This class will display the board to the console
 
-class Display {
+#include "HumanPlayer.h"
+#include "computerPlayer.h"
+
+class Display : public HumanPlayer, public computerPlayer {
 
 public:
     Display();
+
+    void displayForTwoPlayers(int y);
+    void displayForOnePlayer(int n);
 
 };
 

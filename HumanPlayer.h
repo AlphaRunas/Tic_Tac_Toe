@@ -8,6 +8,8 @@
 // The class will give the logic for the
 // People playing the game.
 
+#include <iostream>
+
 class HumanPlayer {
 
 };

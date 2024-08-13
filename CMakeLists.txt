@@ -7,4 +7,5 @@ add_executable(Tic_Tac_Toe main.cpp
         computerPlayer.h
         computerPlayer.cpp
         Display.h
-        Display.cpp)
+        Display.cpp
+        HumanPlayer.cpp)

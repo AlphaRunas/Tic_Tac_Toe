@@ -51,7 +51,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -86,7 +87,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				5
 			]
 		},
 		{
@@ -126,6 +128,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Display.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HumanPlayer.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

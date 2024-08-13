@@ -67,6 +67,12 @@ build CMakeFiles/Tic_Tac_Toe.dir/Display.cpp.o: CXX_COMPILER__Tic_Tac_Toe_unscan
   OBJECT_DIR = CMakeFiles/Tic_Tac_Toe.dir
   OBJECT_FILE_DIR = CMakeFiles/Tic_Tac_Toe.dir
 
+build CMakeFiles/Tic_Tac_Toe.dir/HumanPlayer.cpp.o: CXX_COMPILER__Tic_Tac_Toe_unscanned_Debug /Users/roland/CLionProjects/Tic-Tac-Toe/HumanPlayer.cpp || cmake_object_order_depends_target_Tic_Tac_Toe
+  DEP_FILE = CMakeFiles/Tic_Tac_Toe.dir/HumanPlayer.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Tic_Tac_Toe.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tic_Tac_Toe.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tic_Tac_Toe
@@ -75,7 +81,7 @@ build CMakeFiles/Tic_Tac_Toe.dir/Display.cpp.o: CXX_COMPILER__Tic_Tac_Toe_unscan
 #############################################
 # Link the executable Tic_Tac_Toe
 
-build Tic_Tac_Toe: CXX_EXECUTABLE_LINKER__Tic_Tac_Toe_Debug CMakeFiles/Tic_Tac_Toe.dir/main.cpp.o CMakeFiles/Tic_Tac_Toe.dir/computerPlayer.cpp.o CMakeFiles/Tic_Tac_Toe.dir/Display.cpp.o
+build Tic_Tac_Toe: CXX_EXECUTABLE_LINKER__Tic_Tac_Toe_Debug CMakeFiles/Tic_Tac_Toe.dir/main.cpp.o CMakeFiles/Tic_Tac_Toe.dir/computerPlayer.cpp.o CMakeFiles/Tic_Tac_Toe.dir/Display.cpp.o CMakeFiles/Tic_Tac_Toe.dir/HumanPlayer.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   OBJECT_DIR = CMakeFiles/Tic_Tac_Toe.dir
   POST_BUILD = :
